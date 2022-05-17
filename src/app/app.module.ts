@@ -10,6 +10,7 @@ import { UserComponent } from './user/user.component';
 import { PipePipe } from './pipe.pipe';
 import { ImgurlPipe } from './imgurl.pipe';
 import { HighlightDirective } from './highlight.directive';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HighlightDirective } from './highlight.directive';
     UserComponent,
     PipePipe,
     ImgurlPipe,
-    HighlightDirective
+    HighlightDirective,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule
